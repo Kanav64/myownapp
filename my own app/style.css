@@ -1,0 +1,46 @@
+b{
+    color:red
+}
+
+.h1{
+    color:white;
+    background-color: rgb(200,200,200);
+    display:flex;
+    
+}
+
+body{
+    background-color: #ffffff
+    
+}
+.para1{
+    background-color:green;
+    margin: 50;
+    padding: 100;
+}
+img{
+margin: top 50px;
+width:500px;
+height:500px;
+}
+a:link{
+    color:blue
+
+}
+a:visited{
+    color:blueviolet
+}
+.parks{
+    position:relative
+}
+.parks p{
+    position:absolute;
+    top:50%;
+    left:45%;
+    opacity:0;
+   
+
+}
+.parks:hover p{
+    opacity:1
+}
